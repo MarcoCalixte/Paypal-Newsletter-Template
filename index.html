@@ -91,7 +91,13 @@
          margin: 0!important;
       }
 
-      .underline:hover { text-decoration: underline; }
+      .underline:hover {
+        text-decoration: underline;
+       }
+
+       .hb {
+        display: none!important; font-size:0px!important; visibility: hidden!important; overflow: hidden!important; mso-hide: all!important;
+      }
 
     @media only screen and (min-width:601px) and (min-width:36000px){
       #hm { display: block!important; visibility: visible !important; }
@@ -115,6 +121,9 @@
         .full80 { width: 110px!important; }
         .pleft { padding-left: 60px!important; }
         .pright { padding-right: 80px!important; }
+        .pright-social { padding-right: 300px!important; }
+        .pright-nav { padding-left: 45px!important; }
+        .align-left { text-align:left!important; align-items: left!important;}
 	}
 
 	@media only screen and (max-width:480px){
@@ -122,6 +131,8 @@
         .sm { display: block!important; visibility: visible !important; }
         .hm { display: none!important; font-size:0px!important; visibility: hidden!important; overflow: hidden!important; mso-hide: all!important; }
         .align-left { text-align:left!important; align-items: left!important;}
+        .pright-social { padding-right: 170px!important; }
+        .pright-nav { padding-left: 45px!important; }
 	}
 
     /* Custom Dark Mode Colors */
@@ -160,7 +171,7 @@
          </div>
          <!-- End Pre-header  -->
     <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" align="center" style="border-spacing:0;
-      background-color:#fccf03;Margin:0;padding:0;width: 100%;
+      background-color:#ffd140;Margin:0;padding:0;width: 100%;
       max-width: 600px;" role="presentation">
 
       <!-- spacer -->
@@ -313,7 +324,7 @@
                             <td align="left" width="195" style="padding-right: 20px;" valign="top" class="db dw pleft">
                               <h2 style="text-align: left; color: #001C64; font-size: 22px;">Making the sale</h2>
 
-                              <p class="pright" style="text-align: left; font-size: 20px; font-weight: 500; line-height: 22px;">Tap to Pay enables small businesses to accept contactless payments (including cards and digital wallets). </p>
+                              <p class="pright" style="text-align: left; font-size: 20px; font-weight: 500; line-height: 24px;">Tap to Pay enables small businesses to accept contactless payments (including cards and digital wallets). </p>
                             </td>
                           </tr>
 
@@ -377,7 +388,7 @@
                                 Selling in more places
                               </h2>
 
-                              <p class="pright" style="text-align: left; font-size: 20px; font-weight: 500; line-height: 22px;">Small business owners can onboard in just a few simple steps. and start accepting contactless cards.  </p>
+                              <p class="pright" style="text-align: left; font-size: 20px; font-weight: 500; line-height: 24px;">Small business owners can onboard in just a few simple steps. and start accepting contactless cards.  </p>
                             </td>
                           </tr>
 
@@ -441,7 +452,7 @@
                                 Turning new customers <br> into regulars
                               </h2>
 
-                              <p class="pright" style="text-align: left; font-size: 20px; font-weight: 500; line-height: 22px;">PayPal has remained at the forefront of the digital payment revolution for more than 20 years. </p>
+                              <p class="pright" style="text-align: left; font-size: 20px; font-weight: 500; line-height: 24px;">PayPal has remained at the forefront of the digital payment revolution for more than 20 years. </p>
                             </td>
                           </tr>
 
@@ -464,27 +475,150 @@
         </tr>
         <!-- body content end -->
 
-         <!-- spacer -->
-         <tr>
-          <td height="100" style="font-size:30px; line-height:30px; mso-line-height-rule:exactly;"> &nbsp;</td>
-        </tr>
-        <!-- spacer -->
+        <tr>
+          <td align="center">
+            <table class="container" bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="display: inline-block;">
+              <tr>
+                <td align="center">
+                  <img src="https://image.emails.paypal.com/lib/fe3611727364047f721671/m/4/shape.png" width="100%" height="auto" style="margin:0; padding:0; border:none; display:block;" border="0" class="image" alt="">
+                </td>
+              </tr>
+            </table>
 
+          </td>
+        </tr>
 
         <!-- footer start -->
         <tr>
           <td align="center">
-            <table id="bg" class="full" bgcolor="#db7779" background="https://i.postimg.cc/28nwpGw4/Footer-Wave.png" width="600" height="450" cellpadding="0" cellspacing="0" border="0" style="background: url(https://i.postimg.cc/28nwpGw4/Footer-Wave.png) center top repeat-y; background-size: cover; overflow: hidden; width: 600px; height: 450px; border-radius: 20px;">
+            <table class="container" bgcolor="#ffffff" width="600" cellpadding="0" cellspacing="0" border="0" role="presentation">
                 <!--[if (gte mso 9)|(IE)]>
                 <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:450px;">
                     <v:fill type="tile" src="https://i.postimg.cc/28nwpGw4/Footer-Wave.png" />
                     <v:textbox inset="0,0,0,0">
                 <![endif]-->
 
+                  <!-- footer navbar start -->
+                  <tr>
+                    <td align="center" >
+                      <table class="container" width="600" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                        <!-- spacer -->
+                        <tr >
+                          <td height="50" style="font-size:30px; line-height:30px; mso-line-height-rule:exactly;"> &nbsp;</td>
+                       </tr>
+                       <!-- spacer -->
+                        <tr>
+                          <td align="left" class="pright-nav">
+                            <table class="container" width="560" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                              <!-- spacer -->
+                              <tr >
+                                <td height="10" class="hb sm" style="font-size:30px; line-height:30px; mso-line-height-rule:exactly;"> &nbsp;</td>
+                              </tr>
+                              <!-- spacer -->
+                              <tr>
+                                <td align="center" width="112" class="db dw align-left">
+                                  <h3 style="color:#0070E0;">Help</h3>
+                                </td>
+
+                                <td width="10" style="color:#b1b1b2; font-weight: bold;" class="db dw hm">|</td>
+
+                                <td align="center" width="112" class="db dw align-left">
+                                  <h3 style="color:#0070E0;">Partners</h3>
+                                </td>
+
+                                <td width="10" style="color:#b1b1b2; font-weight: bold;" class="db dw hm">|</td>
+
+                                <td align="center" width="112" class="db dw align-left">
+                                  <h3 style="color:#0070E0;">Logos</h3>
+                                </td>
+
+                                <td width="10" style="color:#b1b1b2; font-weight: bold; padding-right: 20px;" class="db dw hm">|</td>
+
+                                <td align="center" width="112" class="db dw align-left">
+                                  <h3 style="color:#0070E0;">Privacy/Cookies</h3>
+                                </td>
+
+                                <td width="10" style="color:#b1b1b2; font-weight: bold; padding-left: 20px;" class="db dw hm">|</td>
+
+                                <td align="center" width="112" class="db dw align-left">
+                                  <h3 style="color:#0070E0;">Resources</h3>
+                                </td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+
+                        <!-- social icons start -->
+                        <tr>
+                          <td align="center" class="pright-social" style="padding-top: 20px; padding-left: 10px;">
+                            <table class="container" width="600" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                              <tr>
+                                <td align="left">
+                                  <table class="container" width="30%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                    <tr>
+                                      <td align="center">
+                                        <tr>
+                                          <td align="center">
+                                            <img src="https://image.emails.paypal.com/lib/fe3311727364047f721674/m/1/facebook_icn.png" width="26" height="auto" style="margin:0; padding:0; border:none; display:block;" border="0" class="img" alt="Facebook">
+                                          </td>
+
+                                          <td align="center">
+                                            <img src="https://image.emails.paypal.com/lib/fe3311727364047f721674/m/1/twitter_icn.png" width="26" height="auto" style="margin:0; padding:0; border:none; display:block;" border="0" class="img" alt="Twitter">
+                                          </td>
+
+                                          <td align="center">
+                                            <img src="https://images.ctfassets.net/7rifqg28wcbd/1pCUAUx7b1V69Ik6ntv74g/213211329d76d160c5db90f418760168/LinkedIn.png" width="26" height="auto" style="margin:0; padding:0; border:none; display:block;" border="0" class="img" alt="LinkedIn">
+                                          </td>
+                                        </tr>
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                              </tr>
 
 
+                            </table>
 
+                          </td>
+                        </tr>
+                        <!-- social icons end -->
 
+                        <!-- footer text start -->
+                        <tr>
+                          <td align="center" style="padding-top: 30px; padding-bottom: 50px;">
+                            <table class="container" width="600" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                              <tr>
+                                <td align="center">
+                                  <table class="container" width="90%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                    <tr>
+                                      <td align="left">
+                                        <p>This email was sent to RichCastle.net@gmail.com because your email preferences are set to receive "News and Promotions". Click here to Unsubscribe.</p>
+
+                                        <p>Please do not reply to this email. We are unable to respond to inquiries sent to this address. For immediate answers to your questions, visit our Help Center by clicking "Help" located on any PayPal page or email.</p>
+
+                                        <p>PayPal, Inc. is Licensed as a Money Transmitter by the New York State Department of Financial Services. PayPal, Inc., NMLS #910457, License #FT3345, Massachusetts Foreign Transmittal License. PayPal, Inc., Transmit Money By Check, Draft or Money Order By The Department of Banking, Commonwealth of Pennsylvania. PayPal, Inc. Rhode Island Licensed Money Transferor. PAYPAL, INC., NMLS #910457, LICENSE #34967, IS LICENSED BY THE GEORGIA DEPARTMENT OF BANKING AND FINANCE. PayPal, Inc. is Licensed by the State of Connecticut Department of Banking to perform Money Transmission, NMLS #910457, License Number MT-910457.
+                                        </p>
+
+                                        <p>Copyright © 2023 PayPal, Inc. All rights reserved. PayPal is located at 2211 N. First St., San Jose, CA 95131.</p>
+                                        <p>334958 10787</p>
+                                      </td>
+                                    </tr>
+                                  </table>
+
+                                </td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                        <!-- footer text end -->
+                      </table>
+
+                    </td>
+                  </tr>
+                  <!-- footer navbar end -->
 
               <!--[if (gte mso 9)|(IE)]>
                   </v:textbox>
