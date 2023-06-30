@@ -1,0 +1,2 @@
+# Paypal-Newsletter-Template
+NewsLetter
